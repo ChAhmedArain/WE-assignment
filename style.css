@@ -202,7 +202,7 @@ img{
 }
 .actions{
     display: flex;
-    gap: 2rem;
+    gap: 10rem;
 }
 .img-container{
     height: 75vh;
@@ -210,12 +210,13 @@ img{
     background: linear-gradient(var(--secondary-pink),transparent);
     border-radius: 50% 50% 0 0 ;
     position: relative;
+    margin-top: 0px;
 }
 .img-container img{
     position: absolute;
     left: 50%;
-    width: 120%;
-    height: 100%;
+    width: 90%;
+    height: 110%;
     transform: translateX(-50%);
     bottom: 10px;
 }
